@@ -1,4 +1,5 @@
 ---
+import SideMenuCard from "./SideMenuCard.astro";
 import SideMenuItem from "./SideMenuItem.astro";
 import HomeIcon from "./icons/HomeIcon.astro";
 import LibraryIcon from "./icons/LibraryIcon.astro";
@@ -10,28 +11,26 @@ import { playlists } from "@/lib/data.ts";
 <nav class="flex flex-col flex-1 gap-2">
   <div class="bg-zinc-900 rounded-lg p-2">
     <ul>
-      <SideMenuItem href="/#">
+      <SideMenuItem href="/">
         <HomeIcon />
-         Home
+         Inicio
       </SideMenuItem>
 
       <SideMenuItem href="/#">
         <SearchIcon />
-         Search
+         Buscar
       </SideMenuItem>
     </ul>
   </div>
 
   <div class="bg-zinc-900 rounded-lg p-2 flex-1">
     <ul>
-      <SideMenuItem href="/#">
+      <SideMenuItem href="/">
         <LibraryIcon />
-         Library
+         Tu biblioteca
       </SideMenuItem>
 
-      {
-        playlists.map(playlist => <SideMenuItem playlist="{playlist}"/> )
-      }
+      {playlists.map((playlist) => <SideMenuCard playlist={playlist} />)}
     </ul>
   </div>
 </nav>
