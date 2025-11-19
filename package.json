@@ -1,5 +1,5 @@
 {
-  "name": "spotifyclone",
+  "name": "cuicatl",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -13,12 +13,16 @@
     "@astrojs/react": "^3.0.3",
     "@astrojs/svelte": "^4.0.3",
     "@astrojs/tailwind": "^5.0.0",
+    "@radix-ui/react-slider": "^1.3.6",
     "@types/react": "^18.2.25",
     "@types/react-dom": "^18.2.10",
     "astro": "^3.2.2",
+    "clsx": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "svelte": "^4.2.1",
-    "tailwindcss": "^3.3.3"
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^3.3.3",
+    "zustand": "^5.0.8"
   }
 }

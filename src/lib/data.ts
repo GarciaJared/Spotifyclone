@@ -13,56 +13,65 @@ export const playlists: Playlist[] = [
   {
     id: '1',
     albumId: 1,
-    title: "Chill Lo-Fi Music",
+    title: "La paloma",
     color: colors.yellow,
     cover:
-      "https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353",
-    artists: ["NoSpirit", "Casiio"],
+      "https://www.3museos.com/wp-content/uploads/2017/09/maximiliano_917x1200.jpg",
+    artists: ["Sebastian Iradier"],
   },
   {
     id: '2',
     albumId: 2,
-    title: "Lo-Fi Chill Session",
+    title: "México",
     color: colors.green,
     cover:
-      "https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187",
-    artists: ["Kupla", "Blue Fox"],
+      "https://images.pexels.com/photos/127566/pexels-photo-127566.jpeg",
+    artists: ["Irma Vila", "Juan Gabriel"],
   },
   {
     id: '3',
     albumId: 3,
-    title: "Study Session",
+    title: "Brani Italiani",
     color: colors.rose,
     cover:
-      "https://f4.bcbits.com/img/a1435058381_65.jpg",
-    artists: ["Tenno", "xander", "Team Astro"],
+      "https://images.pexels.com/photos/33834253/pexels-photo-33834253.jpeg",
+    artists: ["Claudio Villa", "Pavarotti", ""],
   },
   {
     id: '4',
     albumId: 4,
-    title: "Blue Note Study Time",
+    title: "Français",
     color: colors.blue,
     cover:
-      "https://f4.bcbits.com/img/a1962013209_16.jpg",
-    artists: ["Raimu", "Yasumu"],
+      "https://images.pexels.com/photos/71177/pexels-photo-71177.jpeg",
+    artists: ["Edith Piaf"],
   },
   {
     id: '5',
     albumId: 5,
-    title: "Chau Saura Session",
+    title: "God of code",
     color: colors.purple,
     cover:
-      "https://f4.bcbits.com/img/a2793859494_16.jpg",
-    artists: ["Chau Saura", "amies", "kyu"],
+      "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72cb13dc5409b1f3e7bfeb3968e",
+    artists: ["Popurri"],
   },
   {
     id: '6',
     albumId: 6,
-    title: "Like a Necessity",
+    title: "Anna e me!💕",
     color: colors.orange,
     cover:
       "https://f4.bcbits.com/img/a0363730459_16.jpg",
-    artists: ["WFS", "Nadav Cohen"],
+    artists: ["Anna", "Jared"],
+  },
+  {
+    id: '7',
+    albumId: 7,
+    title: "MJ mood",
+    color: colors.orange,
+    cover:
+      "https://f4.bcbits.com/img/a0363730459_16.jpg",
+    artists: ["Anna", "Jared"],
   },
 ];
 
@@ -277,7 +286,7 @@ export const songs: Song[] = [
     "id": 1,
     "albumId": 5,
     "title": "Moonlit Walk",
-    "image": "https://f4.bcbits.com/img/a2793859494_16.jpg",
+    "image": "https://i.scdn.co/image/ab67616d00004851f038f68827e437530b3a80a8",
     "artists": ["LoFi Dreamer"],
     "album": "Chill Lo-Fi Music",
     "duration": "3:12"
